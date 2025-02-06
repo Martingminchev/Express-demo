@@ -1,6 +1,6 @@
 # Express Demo
 
-This project is a demonstration of an Express.js application, showcasing a basic structure with controllers, models, and routes. (MRC pattern, a variation of the more well known MVC patter)
+This project is a demonstration of an Express.js application, showcasing a basic structure with controllers, models, and routes. (MRC pattern, a variation of the more well known MVC pattern)
 
 ## Project Structure
 
