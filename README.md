@@ -18,14 +18,15 @@ The repository is organized as follows:
 
    ```bash
    git clone https://github.com/Martingminchev/Express-demo.git
-   cd Express-demo
 
-2. **Install dependencies and run:**
+2. **Install dependencies:**
 
    ```bash
-   git clone https://github.com/Martingminchev/Express-demo.git
    cd Express-demo
    npm i
+   
+2. **Run locally:**
+   ```bash
    node index.js
   Or
    ```bash
