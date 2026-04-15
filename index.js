@@ -23,10 +23,7 @@ app.use(require("express").json());
 
 async function connectingToDB() {
   try {
-    await require("mongoose").connect(process.env.MONGO, {
-      useUnifiedTopology: true,
-      useNewUrlParser: true,
-    });
+    await require("mongoose").connect(process.env.MONGO);
     console.log("Connected to the DB ✅");
   } catch (error) {
     console.log("ERROR: Your DB is not running, start it up ☢️");
